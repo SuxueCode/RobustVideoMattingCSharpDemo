@@ -1,0 +1,17 @@
+﻿<Window x:Class="RobustVideoMattingCSharpDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RobustVideoMattingCSharpDemo"
+        mc:Ignorable="d"
+        Title="RobustVideoMattingCSharpDemo" Height="450" Width="800">
+    <Grid>
+        <Label Content="模型:" HorizontalAlignment="Left" Margin="40,44,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cb_onnx_select" HorizontalAlignment="Left" Margin="93,46,0,0" VerticalAlignment="Top" Width="240"/>
+        <Image Name="img_source" HorizontalAlignment="Left" Height="293" Margin="49,90,0,0" VerticalAlignment="Top" Width="253"/>
+        <Button Name="btn_load_img" Content="加载图片" HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" Height="24" Width="81" Click="btn_load_img_Click"/>
+        <Image x:Name="img_process_source" HorizontalAlignment="Left" Height="293" Margin="430,90,0,0" VerticalAlignment="Top" Width="253"/>
+
+    </Grid>
+</Window>
